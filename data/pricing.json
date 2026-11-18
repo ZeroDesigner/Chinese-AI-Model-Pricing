@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "currency": "CNY",
+  "unit": "million_tokens",
+  "last_checked": "2026-11-18",
+  "models": [
+    {
+      "provider": "deepseek",
+      "name": "DeepSeek-V3",
+      "model_id": "deepseek-chat",
+      "context_window": 65536,
+      "input_cny_per_million": 2,
+      "cache_input_cny_per_million": 0.5,
+      "output_cny_per_million": 8,
+      "verified_at": "2025-01-01",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "provider": "deepseek",
+      "name": "DeepSeek-R1",
+      "model_id": "deepseek-reasoner",
+      "context_window": 65536,
+      "input_cny_per_million": 4,
+      "cache_input_cny_per_million": 1,
+      "output_cny_per_million": 16,
+      "verified_at": "2025-01-01",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "provider": "zhipu",
+      "name": "GLM-4.5",
+      "model_id": "glm-4.5",
+      "context_window": 128000,
+      "input_cny_per_million": 2,
+      "output_cny_per_million": 8,
+      "verified_at": "2025-07-01",
+      "source_url": "https://bigmodel.cn/pricing"
+    },
+    {
+      "provider": "zhipu",
+      "name": "GLM-4.5-Air",
+      "model_id": "glm-4.5-air",
+      "context_window": 128000,
+      "input_cny_per_million": 1,
+      "output_cny_per_million": 4,
+      "verified_at": "2025-07-01",
+      "source_url": "https://bigmodel.cn/pricing"
+    },
+    {
+      "provider": "moonshot",
+      "name": "Kimi K2",
+      "model_id": "kimi-k2",
+      "context_window": 128000,
+      "input_cny_per_million": 4,
+      "output_cny_per_million": 16,
+      "verified_at": "2025-07-01",
+      "source_url": "https://platform.moonshot.cn/docs/pricing/chat"
+    },
+    {
+      "provider": "moonshot",
+      "name": "Moonshot V1 8K",
+      "model_id": "moonshot-v1-8k",
+      "context_window": 8000,
+      "input_cny_per_million": 12,
+      "output_cny_per_million": 12,
+      "verified_at": "2025-01-01",
+      "source_url": "https://platform.moonshot.cn/docs/pricing/chat"
+    },
+    {
+      "provider": "alibaba",
+      "name": "通义千问3 235B",
+      "model_id": "qwen3-235b-a22b",
+      "context_window": 131072,
+      "input_cny_per_million": 0.8,
+      "output_cny_per_million": 8,
+      "verified_at": "2025-07-01",
+      "source_url": "https://help.aliyun.com/zh/model-studio/models"
+    },
+    {
+      "provider": "alibaba",
+      "name": "通义千问3 32B",
+      "model_id": "qwen3-32b",
+      "context_window": 131072,
+      "input_cny_per_million": 0.4,
+      "output_cny_per_million": 4,
+      "verified_at": "2025-07-01",
+      "source_url": "https://help.aliyun.com/zh/model-studio/models"
+    },
+    {
+      "provider": "baidu",
+      "name": "文心 4.5 Turbo",
+      "model_id": "ernie-4.5-turbo",
+      "context_window": 128000,
+      "input_cny_per_million": 0.8,
+      "output_cny_per_million": 3.2,
+      "verified_at": "2025-04-01",
+      "source_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Jltanxkg"
+    },
+    {
+      "provider": "volcengine",
+      "name": "豆包 1.5 Pro 32K",
+      "model_id": "doubao-1-5-pro-32k",
+      "context_window": 32768,
+      "input_cny_per_million": 0.8,
+      "output_cny_per_million": 2,
+      "verified_at": "2025-02-01",
+      "source_url": "https://www.volcengine.com/docs/82379/1298336"
+    },
+    {
+      "provider": "tencent",
+      "name": "混元 TurboS",
+      "model_id": "hunyuan-turbos",
+      "context_window": 32768,
+      "input_cny_per_million": 1,
+      "output_cny_per_million": 4,
+      "verified_at": "2025-03-01",
+      "source_url": "https://cloud.tencent.com/document/product/1729/97731"
+    },
+    {
+      "provider": "minimax",
+      "name": "MiniMax M1",
+      "model_id": "minimax-m1",
+      "context_window": 1000000,
+      "input_cny_per_million": 1,
+      "output_cny_per_million": 4,
+      "verified_at": "2025-06-01",
+      "source_url": "https://platform.minimaxi.com/document/Price"
+    },
+    {
+      "provider": "lingyi",
+      "name": "Yi-Lightning",
+      "model_id": "yi-lightning",
+      "context_window": 16384,
+      "input_cny_per_million": 0.99,
+      "output_cny_per_million": 0.99,
+      "verified_at": "2025-01-01",
+      "source_url": "https://platform.lingyiwanwu.com/docs"
+    },
+    {
+      "provider": "siliconflow",
+      "name": "DeepSeek-R1",
+      "model_id": "deepseek-ai/DeepSeek-R1",
+      "context_window": 65536,
+      "input_cny_per_million": 4,
+      "output_cny_per_million": 16,
+      "verified_at": "2025-01-01",
+      "source_url": "https://siliconflow.cn/pricing"
+    },
+    {
+      "provider": "openrouter",
+      "name": "DeepSeek V3",
+      "model_id": "deepseek/deepseek-chat",
+      "context_window": 163840,
+      "input_cny_per_million": null,
+      "output_cny_per_million": null,
+      "verified_at": null,
+      "source_url": "https://openrouter.ai/models"
+    }
+  ]
+}

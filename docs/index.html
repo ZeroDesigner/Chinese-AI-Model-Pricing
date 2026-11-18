@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中国 AI 模型 Token 价目表</title>
+  <style>
+    :root { color-scheme: light dark; --line: #9aa0a6; --muted: #687078; }
+    body { max-width: 1180px; margin: 0 auto; padding: 24px; font-family: system-ui, sans-serif; }
+    h1 { margin-bottom: 8px; } .meta { color: var(--muted); margin-bottom: 20px; }
+    .controls { display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
+    input, select { padding:9px 11px; border:1px solid var(--line); border-radius:6px; font-size:14px; }
+    table { width:100%; border-collapse:collapse; font-size:14px; }
+    th, td { border-bottom:1px solid var(--line); padding:10px 8px; text-align:left; vertical-align:top; }
+    th { position:sticky; top:0; background:Canvas; } code { font-size:12px; }
+    .unknown { color:#b54708; } .hidden { display:none; }
+  </style>
+</head>
+<body>
+  <h1>中国 AI 模型 Token 价目表</h1>
+  <div class="meta">单价：人民币/百万 Token；最后检查：2026-11-18</div>
+  <p>价格仅供参考，缓存命中、活动折扣、区域和计费方式可能影响实际费用。</p>
+  <div class="controls">
+    <input id="search" type="search" placeholder="搜索模型或厂商" aria-label="搜索">
+    <select id="provider" aria-label="厂商筛选">
+      <option value="">全部厂商</option><option value="alibaba">alibaba</option><option value="baidu">baidu</option><option value="deepseek">deepseek</option><option value="lingyi">lingyi</option><option value="minimax">minimax</option><option value="moonshot">moonshot</option><option value="openrouter">openrouter</option><option value="siliconflow">siliconflow</option><option value="tencent">tencent</option><option value="volcengine">volcengine</option><option value="zhipu">zhipu</option>
+    </select>
+  </div>
+  <table>
+    <thead><tr><th>模型</th><th>厂商</th><th>上下文</th><th>输入</th><th>缓存输入</th><th>输出</th><th>核验日期</th><th>来源</th></tr></thead>
+    <tbody><tr><td><strong>通义千问3 235B</strong><br><code>qwen3-235b-a22b</code></td><td>alibaba</td><td>131,072</td><td>0.8</td><td><span class="unknown">待核验</span></td><td>8</td><td>2025-07-01</td><td><a href="https://help.aliyun.com/zh/model-studio/models" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>通义千问3 32B</strong><br><code>qwen3-32b</code></td><td>alibaba</td><td>131,072</td><td>0.4</td><td><span class="unknown">待核验</span></td><td>4</td><td>2025-07-01</td><td><a href="https://help.aliyun.com/zh/model-studio/models" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>文心 4.5 Turbo</strong><br><code>ernie-4.5-turbo</code></td><td>baidu</td><td>128,000</td><td>0.8</td><td><span class="unknown">待核验</span></td><td>3.2</td><td>2025-04-01</td><td><a href="https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Jltanxkg" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>DeepSeek-R1</strong><br><code>deepseek-reasoner</code></td><td>deepseek</td><td>65,536</td><td>4</td><td>1</td><td>16</td><td>2025-01-01</td><td><a href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>DeepSeek-V3</strong><br><code>deepseek-chat</code></td><td>deepseek</td><td>65,536</td><td>2</td><td>0.5</td><td>8</td><td>2025-01-01</td><td><a href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>Yi-Lightning</strong><br><code>yi-lightning</code></td><td>lingyi</td><td>16,384</td><td>0.99</td><td><span class="unknown">待核验</span></td><td>0.99</td><td>2025-01-01</td><td><a href="https://platform.lingyiwanwu.com/docs" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>MiniMax M1</strong><br><code>minimax-m1</code></td><td>minimax</td><td>1,000,000</td><td>1</td><td><span class="unknown">待核验</span></td><td>4</td><td>2025-06-01</td><td><a href="https://platform.minimaxi.com/document/Price" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>Kimi K2</strong><br><code>kimi-k2</code></td><td>moonshot</td><td>128,000</td><td>4</td><td><span class="unknown">待核验</span></td><td>16</td><td>2025-07-01</td><td><a href="https://platform.moonshot.cn/docs/pricing/chat" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>Moonshot V1 8K</strong><br><code>moonshot-v1-8k</code></td><td>moonshot</td><td>8,000</td><td>12</td><td><span class="unknown">待核验</span></td><td>12</td><td>2025-01-01</td><td><a href="https://platform.moonshot.cn/docs/pricing/chat" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>DeepSeek V3</strong><br><code>deepseek/deepseek-chat</code></td><td>openrouter</td><td>163,840</td><td><span class="unknown">待核验</span></td><td><span class="unknown">待核验</span></td><td><span class="unknown">待核验</span></td><td>待核验</td><td><a href="https://openrouter.ai/models" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>DeepSeek-R1</strong><br><code>deepseek-ai/DeepSeek-R1</code></td><td>siliconflow</td><td>65,536</td><td>4</td><td><span class="unknown">待核验</span></td><td>16</td><td>2025-01-01</td><td><a href="https://siliconflow.cn/pricing" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>混元 TurboS</strong><br><code>hunyuan-turbos</code></td><td>tencent</td><td>32,768</td><td>1</td><td><span class="unknown">待核验</span></td><td>4</td><td>2025-03-01</td><td><a href="https://cloud.tencent.com/document/product/1729/97731" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>豆包 1.5 Pro 32K</strong><br><code>doubao-1-5-pro-32k</code></td><td>volcengine</td><td>32,768</td><td>0.8</td><td><span class="unknown">待核验</span></td><td>2</td><td>2025-02-01</td><td><a href="https://www.volcengine.com/docs/82379/1298336" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>GLM-4.5</strong><br><code>glm-4.5</code></td><td>zhipu</td><td>128,000</td><td>2</td><td><span class="unknown">待核验</span></td><td>8</td><td>2025-07-01</td><td><a href="https://bigmodel.cn/pricing" target="_blank" rel="noopener">官方</a></td></tr><tr><td><strong>GLM-4.5-Air</strong><br><code>glm-4.5-air</code></td><td>zhipu</td><td>128,000</td><td>1</td><td><span class="unknown">待核验</span></td><td>4</td><td>2025-07-01</td><td><a href="https://bigmodel.cn/pricing" target="_blank" rel="noopener">官方</a></td></tr></tbody>
+  </table>
+  <script>
+    const search = document.getElementById('search');
+    const provider = document.getElementById('provider');
+    function filter() {
+      const q = search.value.trim().toLowerCase();
+      const p = provider.value;
+      document.querySelectorAll('tbody tr').forEach(row => {
+        const providerCell = row.children[1].textContent.trim();
+        row.classList.toggle('hidden', (p && providerCell !== p) ||
+          (q && !row.textContent.toLowerCase().includes(q)));
+      });
+    }
+    search.addEventListener('input', filter);
+    provider.addEventListener('change', filter);
+  </script>
+</body>
+</html>
