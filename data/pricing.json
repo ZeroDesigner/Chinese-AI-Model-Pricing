@@ -2,7 +2,7 @@
   "schema_version": 1,
   "currency": "CNY",
   "unit": "million_tokens",
-  "last_checked": "2026-11-22",
+  "last_checked": "2026-11-23",
   "models": [
     {
       "provider": "deepseek",
