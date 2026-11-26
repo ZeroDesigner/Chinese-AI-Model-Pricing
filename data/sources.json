@@ -6,7 +6,7 @@
       "name": "DeepSeek",
       "official_url": "https://api-docs.deepseek.com/quick_start/pricing",
       "check_url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -16,7 +16,7 @@
       "name": "智谱 AI",
       "official_url": "https://bigmodel.cn/pricing",
       "check_url": "https://bigmodel.cn/pricing",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -26,7 +26,7 @@
       "name": "月之暗面",
       "official_url": "https://platform.moonshot.cn/docs/pricing/chat",
       "check_url": "https://platform.moonshot.cn/docs/pricing/chat",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -36,7 +36,7 @@
       "name": "阿里云百炼",
       "official_url": "https://help.aliyun.com/zh/model-studio/models",
       "check_url": "https://help.aliyun.com/zh/model-studio/models",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -46,7 +46,7 @@
       "name": "百度千帆",
       "official_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Jltanxkg",
       "check_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Jltanxkg",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -56,7 +56,7 @@
       "name": "火山引擎",
       "official_url": "https://www.volcengine.com/docs/82379/1298336",
       "check_url": "https://www.volcengine.com/docs/82379/1298336",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -66,7 +66,7 @@
       "name": "腾讯云混元",
       "official_url": "https://cloud.tencent.com/document/product/1729/97731",
       "check_url": "https://cloud.tencent.com/document/product/1729/97731",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -76,7 +76,7 @@
       "name": "MiniMax",
       "official_url": "https://platform.minimaxi.com/document/Price",
       "check_url": "https://platform.minimaxi.com/document/Price",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -86,8 +86,8 @@
       "name": "零一万物",
       "official_url": "https://platform.lingyiwanwu.com/docs",
       "check_url": "https://platform.lingyiwanwu.com/docs",
-      "last_checked": "2026-11-25T09:54:40Z",
-      "reachable": true,
+      "last_checked": "2026-11-26T09:38:15Z",
+      "reachable": false,
       "error": "<urlopen error timed out>",
       "http_status": 200
     },
@@ -96,7 +96,7 @@
       "name": "硅基流动",
       "official_url": "https://siliconflow.cn/pricing",
       "check_url": "https://siliconflow.cn/pricing",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
@@ -106,7 +106,7 @@
       "name": "OpenRouter",
       "official_url": "https://openrouter.ai/models",
       "check_url": "https://openrouter.ai/api/v1/models",
-      "last_checked": "2026-11-25T09:54:40Z",
+      "last_checked": "2026-11-26T09:38:15Z",
       "reachable": true,
       "error": "<urlopen error [Errno -5] No address associated with hostname>",
       "http_status": 200
